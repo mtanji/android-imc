@@ -1,4 +1,4 @@
-package edu.etrocamp.imc;
+package edu.metrocamp.imc;
 
 import org.junit.Test;
 

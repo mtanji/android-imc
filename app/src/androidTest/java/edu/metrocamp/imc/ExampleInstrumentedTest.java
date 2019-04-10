@@ -1,4 +1,4 @@
-package edu.etrocamp.imc;
+package edu.metrocamp.imc;
 
 import android.content.Context;
 import android.support.test.InstrumentationRegistry;
