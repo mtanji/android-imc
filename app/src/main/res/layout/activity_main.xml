@@ -5,45 +5,66 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
+    android:padding="15dp"
     tools:context=".MainActivity">
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/peso" />
+        android:gravity="center"
+        android:text="@string/peso"
+        android:textSize="35sp" />
 
     <EditText
         android:id="@+id/edit_peso"
-        android:layout_width="match_parent"
+        android:layout_width="150dp"
         android:layout_height="wrap_content"
-        android:text="@string/peso" />
+        android:layout_gravity="center"
+        android:layout_marginTop="15dp"
+        android:inputType="number"
+        android:textAlignment="center"
+        android:textColor="@color/colorPrimary"
+        android:textSize="35sp" />
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/altura" />
+        android:gravity="center"
+        android:text="@string/altura"
+        android:textSize="35sp" />
 
     <EditText
         android:id="@+id/edit_altura"
-        android:layout_width="match_parent"
+        android:layout_width="150dp"
         android:layout_height="wrap_content"
-        android:text="@string/altura" />
+        android:layout_gravity="center"
+        android:layout_marginTop="15dp"
+        android:inputType="number"
+        android:textAlignment="center"
+        android:textColor="@color/colorPrimary"
+        android:textSize="35sp" />
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginTop="35dp"
         android:text="@string/imc" />
 
     <TextView
         android:id="@+id/text_valor_imc"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/imc" />
+        android:layout_marginLeft="30dp"
+        android:padding="10dp"
+        android:textSize="35sp" />
 
     <Button
         android:id="@+id/button_calcular"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/calcular" />
+        android:layout_marginTop="70dp"
+        android:background="@color/colorPrimaryDark"
+        android:text="@string/calcular"
+        android:textColor="@color/colorLight" />
 
 </LinearLayout>
