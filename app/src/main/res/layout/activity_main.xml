@@ -13,6 +13,7 @@
         android:text="@string/peso" />
 
     <EditText
+        android:id="@+id/edit_peso"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/peso" />
@@ -23,6 +24,7 @@
         android:text="@string/altura" />
 
     <EditText
+        android:id="@+id/edit_altura"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/altura" />
@@ -33,11 +35,13 @@
         android:text="@string/imc" />
 
     <TextView
+        android:id="@+id/text_valor_imc"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/imc" />
 
     <Button
+        android:id="@+id/button_calcular"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/calcular" />
